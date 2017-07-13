@@ -1,0 +1,21 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a prototype of :
+We are given file1 as input having 3 lines in each file as follows
+  INPUT:
+    file1 has 3 lines 
+        it is what it is 
+        what is it 
+        it is a banana     
+    There is only one reduce task. Please draw the map, combine and reduce tables to show the word count based on the first character of each word. Thus, the expected output is: 
+    
+  OUTPUT:
+    a 1 
+    b 1 
+    i 8 
+    w 2 
+ 
+ NOTE: Here I have stored the output in Outputfolder named output4 which has part-r-0000 file that consists of the above output information.
+       If we see _SUCCESS inside the output folder then the output is correct.
+ 
+ 
+ 
