@@ -1,0 +1,16 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a prototype of :
+
+Please create a MapReduce programs to calculate the average of a set of numbers. 
+    Input 
+         o File0's content "2 4 1" 
+         o File1's content "5 7 8" 
+         o File2's content "9 3 6"
+         
+    Output 
+         5
+         
+         
+      Note: In this project I will upload only the .java file as I already have given smaple details in 
+        https://github.com/SujitaPokharel/Map-Reduce-Projects/tree/master/Count%20Occurrence%20of%20First%20Character%20of%20Each%20word%20in%20all%20Files
+      project
