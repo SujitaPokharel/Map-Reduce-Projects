@@ -4,6 +4,18 @@ This project is a prototype of :
   Creating MapReduce program to calculating pi 
     Step 1: Create a Java program which accepts two command line arguments  R: The radius  N: The number of (x, y) pairs to create 
       The Java program then randomly generates N pairs of (x, y) and displays them on the standard output
+        Sample random numbers generator:
+        
+        System.out.println("Enter an integer:"); 
+        Scanner input =new Scanner(System.in); 
+        int index = input.nextInt(); 
+        int num[] = new int[index]; 
+        for(int i=0;i<index;i++){
+          num[i] = (int)(Math.random()*index);
+          System.out.print(num[i]+" ");
+         }
+         
+         
     Step 2: Run the program created in Step 1 and save the result in a file.
     Step 3: Create a MapReduce program to calculate pi
     Step 4: Use the file generated in Step 2 as the input to execute the MapReduce program created in Step 3. 
