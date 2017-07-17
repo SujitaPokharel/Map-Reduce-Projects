@@ -11,14 +11,14 @@ This project is a prototype of :
   
  Output:
   OutputFile ->
-    a: {2} 
-    banana: {2} 
-    is: {0,1,2} 
-    it: {0,1,2} 
-    what: {0,1} 
+    a { file2.txt } 
+    banana: { file2.txt } 
+    is: { file0.txt file1.txt file2.txt } 
+    it: { file0.txt file1.txt file2.txt} 
+    what: { file0.txt file1.txt} 
     
     Explanation: We have to find the location of respective word (whether it's repeated or not) in each file 
-                 and display in ascending order. The number shows the location of file (2 denotes second file2).
+                 and display in ascending order. 
     
     
  Note: In this project I will upload only the .java file as I already have given smaple details in 
