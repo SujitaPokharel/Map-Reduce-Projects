@@ -1,0 +1,33 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a prototype of :
+  
+  XML Parsing + MapReduce 
+  Please find the word count of the text from the "Text" field
+  Note: Your MapReduce program must contain Mapper, Reducer and Combiner. 
+  
+  Input:
+    Sample Xml file
+      <?xml version="1.0" encoding="utf-8"?>
+      <comments>
+        <row Id="2" PostId="7" Score="0" Text="Deer Bear River" CreationDate="2010-08-17-17T19:38:20.410" UserId="11" />
+        <row Id="3" PostId="13" Score="1" Text="Car Car River" CreationDate="2010-08-17-17T19:42:04.487" UserId="15" />
+        ...
+        <row Id="10" PostId="17" Score="0" Text="How now Brown cow" CreationDate="2010-08-17-17T19:52:28.863" UserId="58" />
+      </comments>
+      
+   Output:
+      Bear  1
+      Brown 1
+      Car 2
+      cow 1
+      Deer  1
+      How 1
+      now 1
+      River 2
+     Explanation: We have to parse the similar xml file where we have to count the word present in "Text" field of each row of the xml.
+                  We have to use Mapper, reducer and combiner.
+      
+  Note: In this project I will upload only the .java file as I already have given smaple details in 
+    https://github.com/SujitaPokharel/Map-Reduce-Projects/tree/master/Count%20Occurrence%20of%20First%20Character%20of%20Each%20word%20in%20all%20Files
+  project
+      
