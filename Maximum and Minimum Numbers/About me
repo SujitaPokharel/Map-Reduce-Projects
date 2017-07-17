@@ -1,0 +1,41 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a Based on following information :
+
+    Find the minimum and maximum numbers from a sequence of numbers 
+    and also utilize the MapReduce framework's counters utility to calculate how many malformed data lines.
+    
+    Input 
+       file1:  
+          2#4#1  
+          5#6#2 
+          
+       file2:  
+          5#7#8  
+          8##9 <======= malformed 
+          
+       file3:  
+          9#3#6  
+          #5#2 <======= malformed 
+
+    Note: 
+     Malformed data will be skipped in the calculation for finding the minimum number. 
+   
+   Output 
+   
+    min 1 
+    max 9 
+    malformed 2 
+    
+    Explanation: Here '#' is seperator. Presence of '##' is a malform value which we skip in calculation. 
+                 Likewise, speerator '#' should be between two numbers only else will be malformed and we skip that too.
+    
+    Note: 
+      o The character "#" is used as the separator of numbers. 
+      o String manipualtion. 
+      o The result of the counter (i.e.,malformed) should be displayed by the driver (i.e., the main function). 
+      
+      
+
+Note: In this project I will upload only the .java file as I already have given smaple details in 
+      https://github.com/SujitaPokharel/Map-Reduce-Projects/tree/master/Count%20Occurrence%20of%20First%20Character%20of%20Each%20word%20in%20all%20Files
+      project
