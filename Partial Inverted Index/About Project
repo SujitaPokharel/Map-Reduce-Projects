@@ -1,0 +1,26 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a prototype of :
+  
+  Partial Inverted Index   
+  Please implement mapreduce programs to show the partial inverted index for the following these three files: 
+ 
+ Input:
+  file0's content -> "it is what it is" 
+  file1's content -> "what is it" 
+  file2's content -> "it is a banana" 
+  
+ Output:
+  OutputFile ->
+    a: {2} 
+    banana: {2} 
+    is: {0,1,2} 
+    it: {0,1,2} 
+    what: {0,1} 
+    
+    Explanation: We have to find the location of respective word (whether it's repeated or not) in each file 
+                 and display in ascending order. The number shows the location of file (2 denotes second file2).
+    
+    
+ Note: In this project I will upload only the .java file as I already have given smaple details in 
+        https://github.com/SujitaPokharel/Map-Reduce-Projects/tree/master/Count%20Occurrence%20of%20First%20Character%20of%20Each%20word%20in%20all%20Files
+      project
