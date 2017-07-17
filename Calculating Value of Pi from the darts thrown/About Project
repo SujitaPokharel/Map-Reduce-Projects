@@ -1,0 +1,29 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a prototype of :
+
+  Creating MapReduce program to calculating pi 
+    Step 1: Create a Java program which accepts two command line arguments  R: The radius  N: The number of (x, y) pairs to create 
+      The Java program then randomly generates N pairs of (x, y) and displays them on the standard output
+    Step 2: Run the program created in Step 1 and save the result in a file.
+    Step 3: Create a MapReduce program to calculate pi
+    Step 4: Use the file generated in Step 2 as the input to execute the MapReduce program created in Step 3. 
+    
+    
+    Note: We have square shaped board which has the circular dart patterns inside. 
+          We will calculate pi value from the total number of the darts thrown.
+          I have used following formula to calcu;ate Pi value. The Pi value is 3.14 approximately
+          
+    For example,
+          I used only Map Task and Reduce Task to compute Pi value.  
+          Radius = 2 
+          Number of Pairs = 2000 
+          
+          From My MapReduce program PiCalculation: 
+          Darts thrown Inside, Inside   = 1559  
+          Darts thrown Outside, Outside  = 441 
+          Pi  = 4 * (S / N) 
+           = 4 * (Inside / (Inside + Outside)) 
+           = 4 * (1559 / (1559 + 441)) 
+           = 4* 0.7795 
+           = 3.12
+          
