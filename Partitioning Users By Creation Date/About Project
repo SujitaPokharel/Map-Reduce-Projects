@@ -1,0 +1,17 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a Based on following information :
+
+  Partitioning Users By creation date:
+    Given a set user information, partition the records based on the year of creation date, one partition per year
+    
+    Input:
+        we will provide a single file having all the data
+    
+    Output:
+        We will get all rows on seperate file on the basis of the years available.
+    
+    
+    
+ Note: In this project I will upload only the .java file as I already have given smaple details in 
+      https://github.com/SujitaPokharel/Map-Reduce-Projects/tree/master/Count%20Occurrence%20of%20First%20Character%20of%20Each%20word%20in%20all%20Files
+      project
