@@ -1,0 +1,9 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a Based on following instruction by professor :
+  
+  Given a list of user's comments, filter out a majority of the comments that do not contain a particular keyword. 
+  We use this Bloom filter to test whether each word in a comment is in the hot list. 
+  If the test returns true, the entire record is output. Otherwise, it is ignored. 
+  
+  Process: You can first use Small Data to verify your implementation and then use Big Data to test. 
+  
