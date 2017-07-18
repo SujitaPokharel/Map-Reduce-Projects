@@ -1,0 +1,31 @@
+This is a part of assignment of Map Reduce Programming Using java (CS 570).
+This project is a Based on following information :
+
+    We have two files users.xml and comments.xml which we enriched with stackoverflow data.
+    We will use "Bloom Filter" to filter out some of mapper output.
+    we are only interested in enriching comments with reputable users ( > 1500 reputation ).
+    
+    We are performing all join operations to alter the data sets as per business requirements.
+    
+    Sample arguments while executing program:
+
+    /home/cs246/Desktop/dataset/JoinBloom/users.xml
+    /home/cs246/Desktop/dataset/JoinBloom/comments.xml
+    /home/cs246/Desktop/outputBloom/bloomFilter/train/hotlist.blm 
+    /home/cs246/Desktop/output/joinbloom/fullouter
+    fullouter
+    
+    
+    keywords:
+      full outer join = fullouter
+      inner join = inner
+      left outer join = leftouter
+      right outer join = rightouter
+      anti join = anti
+
+
+
+
+Note: In this project I will upload only the .java file as I already have given smaple details in 
+      https://github.com/SujitaPokharel/Map-Reduce-Projects/tree/master/Count%20Occurrence%20of%20First%20Character%20of%20Each%20word%20in%20all%20Files
+      project
